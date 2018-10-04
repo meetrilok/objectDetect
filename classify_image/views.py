@@ -24,7 +24,7 @@ def load_graph():
         graph_def.ParseFromString(tf_graph.read())
         tf.import_graph_def(graph_def, name='')
     label_lines = [line.rstrip() for line in tf.gfile.GFile(TF_LABELS)]
-    softmax_tensor = sess.graph.get_tensor_by_name('softmax:0')
+    softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
     return sess, softmax_tensor, label_lines
 
 
