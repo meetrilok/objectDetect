@@ -25,7 +25,7 @@ SECRET_KEY = '6t918%**s8@^(a5kl=y8ir@^goesxbp9#*c46=#hh#dldf8^fu'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '*.herokuapp.com',
+    'objectdetect007.herokuapp.com',
     '127.0.0.1',
 ]
 
