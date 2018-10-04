@@ -1,6 +1,5 @@
 import io
 import os
-import json
 import cv2   
 import numpy as np
 
