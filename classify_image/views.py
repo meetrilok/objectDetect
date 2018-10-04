@@ -1,7 +1,6 @@
 import io
 import os
 import json
-import glob
 import cv2   
 import numpy as np
 
