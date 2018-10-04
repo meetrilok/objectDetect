@@ -41,7 +41,7 @@ body {
 
 #drop-container {
   height: calc(100% - 50px);
-  border-style: dashed;
+  
   border-color: #34495E;
   border-radius: 4px;
 }
