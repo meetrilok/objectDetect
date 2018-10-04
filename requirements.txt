@@ -3,10 +3,5 @@ Pillow
 gunicorn
 tensorflow
 WhiteNoise
-Click
-itsdangerous
-Jinja2
-MarkupSafe
 numpy
 opencv-python
-Werkzeug
