@@ -61,7 +61,11 @@ def classify_api(request):
 
 
 def classify(request):
-    return render(request, 'classify.html', {})
+    blue_color='yes'
+    context={
+        'blue_color':blue_color
+        }
+    return render(request, 'classify.html', context)
 
 
 # noinspection PyUnresolvedReferences
